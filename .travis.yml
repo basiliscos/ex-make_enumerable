@@ -10,4 +10,4 @@ otp_release:
   - 20.0
 
 script:
-  - mix do compile --warnings-as-errors, test
+  - MIX_ENV=test mix do compile --warnings-as-errors, test
