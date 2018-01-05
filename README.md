@@ -1,5 +1,12 @@
 # MakeEnumerable
 
+
+[![Travis](https://img.shields.io/travis/basiliscos/ex-make_enumerable.svg)](https://travis-ci.org/basiliscos/ex-make_enumerable)
+[![Hex.pm Version](http://img.shields.io/hexpm/v/make_enumerable.svg?style=flat)](https://hex.pm/packages/make_enumerable)
+[![codecov](https://codecov.io/gh/basiliscos/ex-make_enumerable/badge.svg)](https://codecov.io/gh/basiliscos/ex-make_enumerable)
+[![license](https://img.shields.io/github/license/basiliscos/ex-make_enumerable.svg)](https://github.com/basiliscos/ex-make_enumerable/blob/master/LICENSE)
+
+
 **TODO: Add description**
 
 ## Installation
