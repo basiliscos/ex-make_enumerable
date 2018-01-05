@@ -10,7 +10,4 @@ otp_release:
   - 20.0
 
 script:
-  - MIX_ENV=test mix do compile --warnings-as-errors, test, coveralls.json
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - mix do compile --warnings-as-errors, test
