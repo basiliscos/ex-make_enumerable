@@ -31,7 +31,7 @@ by adding `make_enumerable` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:make_enumerable, "~> 0.1.0"}
+    {:make_enumerable, "~> 0.0.1"}
   ]
 end
 ```
