@@ -8,6 +8,8 @@ defmodule MakeEnumerable do
     The module hides the tag `__struct__` and delegates all other members
     to map to be `Enumerable`.
 
+
+    ```
     defmodule Bar do
       use MakeEnumerable
       defstruct foo: "a", baz: 10
@@ -16,6 +18,7 @@ defmodule MakeEnumerable do
     iex> import Bar
     iex> Enum.map(%Bar{}, fn({k, v}) -> {k, v} end)
     [baz: 10, foo: "a"]
+    ```
 
   """
 
